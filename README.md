@@ -31,7 +31,7 @@ Ich schaue gerne alte Filme.
 
 ## Codeprojekte:
 
-Ein Decision-Tree Modell zu programmieren. 
+Ein Decision-Tree Modell programmieren. 
 
 ```py
 print('Hello World')
