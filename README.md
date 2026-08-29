@@ -35,5 +35,4 @@ Ein Decision-Tree Modell zu programmieren.
 
 ```py
 print('Hello World')
-print('Es funktioniert')
 ```
