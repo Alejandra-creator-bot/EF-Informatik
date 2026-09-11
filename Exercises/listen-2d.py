@@ -27,10 +27,12 @@ SPALTEN = int(input("SPALTEN = "))
 ZAHL = int(input("ZAHL = "))
     
 for i in range(ZEILEN):
-    print("[", end="")
+    zeilen = []
     for j in range(SPALTEN):
-        print(ZAHL,end="")
-    print("]", end="")
+        spalten = []
+        spalten.append (ZAHL)
+    zeilen.append (spalten)
+    
 '''    
 matrix = []
 
