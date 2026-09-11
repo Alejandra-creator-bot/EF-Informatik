@@ -37,19 +37,26 @@ for i in range(ZEILEN):
 matrix = [(zeilen)]
 
 print(matrix)
-'''
+
 #Aufgabe 4
 
 SIZE = int(input("SIZE = "))
 matrix1 = []
 
-for i in range(SIZE):
+for i in range(1,SIZE+1):
     spalten = []
     for j in range(1,SIZE+1):
-        if j%(SIZE) = 0
-       spalten.append (1)
+        if j/(i) == 1:
+            spalten.append (1)
+        else:
+            spalten.append (0)
     matrix1.append (spalten)
 
 
 matrix = [(matrix1)]
+print(matrix)
+'''
+a = [1,2,3]
+b = a
 
+print(b)
