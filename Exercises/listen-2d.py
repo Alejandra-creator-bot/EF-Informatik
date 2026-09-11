@@ -1,5 +1,5 @@
 #Aufgabe 1 Pretty_print
-
+'''
 def pretty_print(mat2d):
     for row in mat2d:
         print(row)
@@ -25,18 +25,31 @@ for i in range(len(matrix)):
 ZEILEN = int(input("ZEILE = "))
 SPALTEN = int(input("SPALTEN = "))
 ZAHL = int(input("ZAHL = "))
-    
+
+zeilen = []
+
 for i in range(ZEILEN):
-    zeilen = []
+    spalten = []
     for j in range(SPALTEN):
-        spalten = []
         spalten.append (ZAHL)
     zeilen.append (spalten)
-    
-'''    
-matrix = []
+      
+matrix = [(zeilen)]
 
 print(matrix)
-
 '''
+#Aufgabe 4
+
+SIZE = int(input("SIZE = "))
+matrix1 = []
+
+for i in range(SIZE):
+    spalten = []
+    for j in range(1,SIZE+1):
+        if j%(SIZE) = 0
+       spalten.append (1)
+    matrix1.append (spalten)
+
+
+matrix = [(matrix1)]
 
