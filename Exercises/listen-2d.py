@@ -1,5 +1,5 @@
 #Aufgabe 1 Pretty_print
-'''
+
 def pretty_print(mat2d):
     for row in mat2d:
         print(row)
@@ -13,11 +13,28 @@ pretty_print(matrix1)
 #Achtung nicht `pretty_print` ([matrix]) schreiben weil sonst [matrix] als 1 Element angeschaut wird!
 
 #Aufgabe 2 
-'''
+
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 for i in range(len(matrix)):
     for j in range(len(matrix[0])):
         print(f'[i: {i}, j: {j}] =', matrix[i][j])
 
+#Aufgabe 3
+
+ZEILEN = int(input("ZEILE = "))
+SPALTEN = int(input("SPALTEN = "))
+ZAHL = int(input("ZAHL = "))
+    
+for i in range(ZEILEN):
+    print("[", end="")
+    for j in range(SPALTEN):
+        print(ZAHL,end="")
+    print("]", end="")
+'''    
+matrix = []
+
+print(matrix)
+
+'''
 
