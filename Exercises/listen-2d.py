@@ -37,7 +37,7 @@ for i in range(ZEILEN):
 matrix = [(zeilen)]
 
 print(matrix)
-
+'''
 #Aufgabe 4
 
 SIZE = int(input("SIZE = "))
@@ -55,8 +55,4 @@ for i in range(1,SIZE+1):
 
 matrix = [(matrix1)]
 print(matrix)
-'''
-a = [1,2,3]
-b = a
 
-print(b)
