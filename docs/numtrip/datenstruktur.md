@@ -1,4 +1,4 @@
-# Num Trip
+# NumTrip
 
 ## Plan:
 
@@ -17,4 +17,4 @@
 
 *Darstellung*:
 
-![numtrip](/Images/numtrip-plan.jpg) 
+![numtrip](/Images/numtrip-plan2.jpg) 
