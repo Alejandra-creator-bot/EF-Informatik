@@ -24,3 +24,16 @@ def whole_board():
     print("-"*31)
           
 whole_board()
+
+
+while True:
+    y_achse= int(input("Gib eine Zahl von 0-4 ein: "))
+    if y_achse == 5:
+            break
+    x_achse= int(input("Gibt eine Zahl von 0-4 ein: "))
+    
+
+    board[y_achse][x_achse]= " "
+
+    whole_board()
+    
