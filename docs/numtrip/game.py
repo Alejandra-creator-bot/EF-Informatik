@@ -1,25 +1,26 @@
-L0= [1, 2, 3, 4, 5,]
-L1= [6, 7, 8, 9, 10]
-L2= [11, 12, 13, 14, 15]
-L3= [16, 17, 18, 19, 20]
-L4= [21, 22, 23, 24, 25]
-
+board = [
+[1, 2, 3, 4, 5,],
+[6, 7, 8, 9, 10],
+[11, 12, 13, 14, 15],
+[16, 17, 18, 19, 20],
+[21, 22, 23, 24, 25]
+]
 # randint für Anfang? zu jedem Kästchen? Aufpassen nicht bei jedem Ablauf, nur am Anfang. Oder beim Runterfallen.
 # Oder randint auch nach dem Klicken? Nur Kästchen auf dem man Draufgecklickt hat 2 mal x.
 # Alle die gleiche Zahl wie Kästchen, Zahl ändern. Achtung: müssen das Kästchen berühren!! wie machen?
 # Die Kästchen die runterfallen, nicht neu, übernehmen die Zahlen von den Zahlen von den kästchen oberhalb.
 
-def Spielfeld():
+def whole_board():
     print("-"*31)
-    print(f"¦{L0[0]:^5}¦{L0[1]:^5}¦{L0[2]:^5}¦{L0[3]:^5}¦{L0[4]:^5}¦")
+    print(f"¦{board[0][0]:^5}¦{board[0][1]:^5}¦{board[0][2]:^5}¦{board[0][3]:^5}¦{board[0][4]:^5}¦")
     print("-"*31)
-    print(f"¦{L1[0]:^5}¦{L1[1]:^5}¦{L1[2]:^5}¦{L1[3]:^5}¦{L1[4]:^5}¦")
+    print(f"¦{board[1][0]:^5}¦{board[1][1]:^5}¦{board[1][2]:^5}¦{board[1][3]:^5}¦{board[1][4]:^5}¦")
     print("-"*31)
-    print(f"¦{L2[0]:^5}¦{L2[1]:^5}¦{L2[2]:^5}¦{L2[3]:^5}¦{L2[4]:^5}¦")
+    print(f"¦{board[2][0]:^5}¦{board[2][1]:^5}¦{board[2][2]:^5}¦{board[2][3]:^5}¦{board[2][4]:^5}¦")
     print("-"*31)
-    print(f"¦{L3[0]:^5}¦{L3[1]:^5}¦{L3[2]:^5}¦{L3[3]:^5}¦{L3[4]:^5}¦")
+    print(f"¦{board[3][0]:^5}¦{board[3][1]:^5}¦{board[3][2]:^5}¦{board[3][3]:^5}¦{board[3][4]:^5}¦")
     print("-"*31)
-    print(f"¦{L4[0]:^5}¦{L4[1]:^5}¦{L4[2]:^5}¦{L4[3]:^5}¦{L4[4]:^5}¦")
+    print(f"¦{board[4][0]:^5}¦{board[4][1]:^5}¦{board[4][2]:^5}¦{board[4][3]:^5}¦{board[4][4]:^5}¦")
     print("-"*31)
           
-Spielfeld()
+whole_board()
